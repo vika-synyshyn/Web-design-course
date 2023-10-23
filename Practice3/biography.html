@@ -5,14 +5,19 @@
     <title>Автобіографія</title>
     <style>
         .button {
-        background-color: magenta;
-        hover: yellow;
+        background-color: blue;
         border: 1px solid black;
-        width: 20px; 
+        width: 120px; 
         margin-bottom: 3px;
+        text-align: center;
         }
-        .button_link {
-            color: white;
+        #button {
+            background-color: magenta;
+            color:black;
+        }
+        #button:visited {
+            background-color: yellow;
+            color: #7300a8;
         }
     </style>
 </head>
@@ -23,11 +28,11 @@
 <a href="index.html">Назад на головну</a>
 <h3 id="zmist">Зміст</h3>
   <ul>
-<li class="button"><a  href="#section1">Базова інформація</a></li>
-<li class="button"><a  href="#section2">Дитинство</a></li>
-<li class="button"><a  href="#section3">Шкільні роки</a></li>
-<li class="button"><a  href="#section4">Поза школою </a></li>
-<li class="button"><a  href="#section5">Університет</a></li>
+<li class="button"><a id="button" href="#section1">Базова інформація</a></li>
+<li class="button"><a id="button" href="#section2">Дитинство</a></li>
+<li class="button"><a id="button" href="#section3">Шкільні роки</a></li>
+<li class="button"><a id="button" href="#section4">Поза школою </a></li>
+<li class="button"><a id="button" href="#section5">Університет</a></li>
 </ul>
 <article id="section1"> 
     <h2>Базова інформація</h2>
