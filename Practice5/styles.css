@@ -1,7 +1,7 @@
 .row {
     width: 100%;
     }
-.caption1, .caption2, caption3 {
+.caption1, .caption2, .caption3 {
     display:block;
     margin:0;
     float:right;
@@ -163,5 +163,3 @@ width: 100%;
         width: 100%;
         }
         }
-    
-
