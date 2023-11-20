@@ -124,7 +124,7 @@ width: 100%;
         }
         }
 
-    @media(min-width: 100px) and (max-width: 768px) {
+    @media(min-width: 50px) and (max-width: 768px) {
         .col-min-1,  .col-min-2,  .col-min-3,  .col-min-4,  .col-min-5,  .col-min-6,  .col-min-7,  .col-min-8,  .col-min-9,  .col-min-10,  .col-min-11,  .col-min-12 {
             float: left;
         }
