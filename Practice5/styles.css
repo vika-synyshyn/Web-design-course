@@ -28,7 +28,7 @@
 p {
     padding: 20px;
 }
-div {
+.caption {
     border: 5px solid black;
     background-color: lightgreen;
     color: black;
