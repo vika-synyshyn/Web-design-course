@@ -3,6 +3,7 @@
     }
 .main {
     text-align: center;
+    margin-bottom: 10px;
 }
 .caption1, .caption2, .caption3 {
     display:block;
@@ -10,6 +11,7 @@
     float:right;
     border: 3px black;
     text-align:center;
+    margin:0;
 }
 .caption1 {
     background-color: pink;
