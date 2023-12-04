@@ -4,6 +4,9 @@ ul{
     flex-wrap: wrap;
 
 }
+li{
+    display: inline-block;
+}
 
 @media (min-width: 992px) {
     
