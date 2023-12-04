@@ -1,3 +1,8 @@
+ ul {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+    }
 h1 {
     text-align: center;
     font-size:24px;
@@ -8,7 +13,6 @@ p {
 a {
     text-decoration:none;
     margin: 3px;
-    display:inline-block;
     
 }
 #biography:link {
@@ -34,13 +38,11 @@ a {
 }
 #gallery:visited {
     color: violet;
-    ul {
-        display:flex;
-        flex-wrap: wrap;
-        flex-direction:row;
-    }
 }
     @media (min-width: 992px) {
+    a {
+        display:inline-block;
+    }
     .col-lg-1 {
     flex-basis: 8.33%;
     }
