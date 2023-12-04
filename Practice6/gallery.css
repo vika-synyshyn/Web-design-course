@@ -17,12 +17,12 @@ h1 {
 .online {
     font-size: 40.56px;
 }
-  img {
-      display: block;
-      margin: 0 auto;
-      max-width: 100%; 
-      height: auto;
-  }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width:100%;
+}
 .flex{
     display:flex;
     flex-direction: row;
