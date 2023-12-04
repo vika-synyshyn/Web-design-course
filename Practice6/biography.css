@@ -6,7 +6,7 @@ h1 {
     font-style:italic;
 }
 .menu {
-    margin: auto;
+    justify-content: center;
 }
 #zmist {
     text-align: center;
