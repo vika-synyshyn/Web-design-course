@@ -30,6 +30,9 @@ ol li:nth-of-type(4) {
     .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
         margin: 10px;
     }
+    ul {
+    display: flex;
+}
     .col-lg-1 {
      flex-basis: 8.33%;
     }
@@ -68,6 +71,9 @@ ol li:nth-of-type(4) {
     }
    }
    @media (min-width: 768px) and (max-width: 992px){
+       ul {
+    display: flex;
+}
     .col-md-1 {
      flex-basis: 8.33%;
     }
@@ -106,6 +112,9 @@ ol li:nth-of-type(4) {
     }
    }
    @media (max-width: 768px){
+       ul {
+    display: flex;
+}
     .col-sm-1 {
      flex-basis: 8.33%;
     }
