@@ -8,6 +8,8 @@ p {
 a {
     text-decoration:none;
     margin: 3px;
+    display:inline-block;
+    
 }
 #biography:link {
     color: purple;
