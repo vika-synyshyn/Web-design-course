@@ -35,6 +35,7 @@ a {
     ul {
         display:flex;
         flex-wrap: wrap;
+        flex-direction:row;
     }
 }
     @media (min-width: 992px) {
