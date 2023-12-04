@@ -153,4 +153,6 @@ h1 {
      flex-basis: 100%;
     }
    }
-
+.center {
+    tenst-align: center;
+}
