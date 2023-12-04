@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    font-size:24px;
+}
+p {
+    font-size: 120%;
+}
+a {
+    text-decoration:none;
+    margin: 3px;
+}
+#biography:link {
+    color: purple;
+}
+#biography:visited {
+    color: orange;
+}
+#nowadays:link {
+    color: red;
+}
+#nowadays:visited {
+    color: magenta;
+}
+#friends:link {
+    color: maroon;
+}
+#friends:visited {
+    color: blue;
+}
+#gallery:link {
+    color: olive;
+}
+#gallery:visited {
+    color: violet;
+}

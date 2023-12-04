@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+    font-size: 22px;
+}
+.a_nazad {
+    font-style:italic;
+}
+#zmist {
+    text-align: center;
+}
+.zmist {
+    font-weight:bold;
+}
+.up {
+    text-transform: uppercase;
+}
+article {
+    font-size: 120%;
+}
+h2 {
+    font-size: 144%;
+}
+ul li {
+    list-style-type: none;
+}
+.button {
+background-color: blue;
+border: 3px solid black;
+width: 130px; 
+margin-bottom: 5px;
+text-align: center;
+color: white;
+display: block;
+text-decoration: none;
+padding: 10px;
+    
+}
+.button:hover {
+    background-color: magenta;
+    color: rgb(3, 0, 151);
+}
+.button:active {
+    background-color: yellow;
+    color: rgb(84, 48, 164);
+}
+
+.p1 {
+    background-color: rgb(172, 213, 214);
+    color: rgb(43, 46, 48);
+}
+.p2 {
+    background-color:rgb(173, 172, 214) ;
+    color:rgb(18, 0, 132);
+}
+.p3 {
+    background-color: rgb(75, 112, 152);
+    color: white;
+}
+.p4 {
+    background-color: rgb(188,155,174);
+    color: rgb(23, 23, 23);
+}
+.p5 {
+    background-color: rgb(236, 193, 89);
+    color: rgb(51, 40, 68);
+}
