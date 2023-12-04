@@ -47,24 +47,34 @@ padding: 10px;
 }
 
 .p1 {
-    background-color: rgb(172, 213, 214);
     color: rgb(43, 46, 48);
 }
+#section1 {
+    background-color: rgb(172, 213, 214);
+}
 .p2 {
-    background-color:rgb(173, 172, 214) ;
     color:rgb(18, 0, 132);
 }
+#section2 {
+    background-color:rgb(173, 172, 214) ;
+}
 .p3 {
-    background-color: rgb(75, 112, 152);
     color: white;
 }
+#section3 {
+    background-color: rgb(75, 112, 152);
+}
 .p4 {
-    background-color: rgb(188,155,174);
     color: rgb(23, 23, 23);
 }
+#section4 {
+    background-color: rgb(188,155,174);
+}
 .p5 {
-    background-color: rgb(236, 193, 89);
     color: rgb(51, 40, 68);
+}
+#section5 {
+    background-color: rgb(236, 193, 89);
 }
 .flex{
     display:flex;
@@ -111,8 +121,6 @@ padding: 10px;
      flex-basis: 100%;
     }
    }
-   
-   /*medium */
    @media (min-width: 768px) and (max-width: 992px){
     
     .col-md-1 {
@@ -152,8 +160,6 @@ padding: 10px;
      flex-basis: 100%;
     }
    }
-   
-   /*small*/
    @media (max-width: 768px){
     .col-sm-1 {
      flex-basis: 8.33%;
