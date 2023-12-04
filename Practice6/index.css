@@ -36,14 +36,14 @@ ul{
     }
 @media (max-width:  768px) {
    
-    .col-mn-3 {
+    .col-sm-3 {
     flex-basis: 25%;
     }
-    .col-mn-6 {
+    .col-sm-6 {
     flex-basis: 50%;
     }
         
-    .col-mn-12 {
+    .col-sm-12 {
     flex-basis: 100%;
     }
     }
