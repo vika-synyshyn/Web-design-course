@@ -1,28 +1,59 @@
-h1 { 
-    text-align: center;
-}
-.a_nazad {
-    font-style:italic;
-}
-h2 {
-    text-align:center;
-}
-th {
-    text-align:center;
-    background-color: green;
-    color: white;
-    font-weight: bold;
-}
-table, caption, thead, td, th {
-    border: 1px solid black;
-    text-align: center;
-}
-td, th {
-    padding: 3px;
-}
-caption {
-    font-size: 18px;
-}
-tr td:nth-child(5) {
-    text-align:right;
-}
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Друзі</title>
+    <link rel="stylesheet" href="friends.css">
+</head>
+<body>
+<h1>Друзі Синишин Вікторії Володимирівни</h1>
+<a class="a_nazad" href="index.html">Назад на головну</a>
+
+<h2> Мої друзі</h2>
+
+<table class="table">
+<caption>Друзі</caption>
+<thead>
+    <tr class="text-lg-5 text-md-5 text-sm-3">
+    <th>Прізвище</th>
+    <th>Ім’я</th>
+    <th>Дата народження</th>
+    <th>Адреса проживання</th>
+    <th>Контактний телефон</th> 
+</tr>
+</thead>
+<tr class="text-lg-4 text-md-4 text-sm-3">
+    <td>Остапчук</td>
+    <td>Влада</td>
+    <td>03.04.2006</td>
+    <td>вул. Пасічна, 13</td>
+    <td>+380713849263</td>
+</tr>
+
+<tr class="text-lg-4 text-md-3 text-sm-2">
+    <td>Кіндраш</td>
+    <td>Марина</td>
+    <td>10.07.2004</td>
+    <td>вул. Бельведерська, 26</td>
+    <td>+380661749386</td>
+</tr>
+
+<tr class="text-lg-4 text-md-3 text-sm-2">
+    <td>Шевченко</td>
+    <td>Яна</td>
+    <td>24.08.2005</td>
+    <td>вул. Вовчинецька, 54</td>
+    <td>+380964968275</td>
+</tr>
+<tr class="text-lg-4 text-md-3 text-sm-2">
+    <td>Федькович</td>
+    <td>Софія</td>
+    <td>14.05.2006</td>
+    <td>вул. Хоткевича, 30</td>
+    <td>+380679592847</td>
+</tr>
+
+</table>
+</body>
+</html>
