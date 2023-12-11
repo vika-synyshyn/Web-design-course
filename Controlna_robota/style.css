@@ -72,6 +72,9 @@ th {
     border: 2px solid black;
     background-color: bisque;
     display: inline-block;
+    margin: 5px;
+    text-decoration: none;
+    color: rgb(130, 27, 27);
 }
 .flex{
     display:flex;
