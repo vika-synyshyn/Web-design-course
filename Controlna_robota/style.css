@@ -55,6 +55,18 @@ table, tr, td {
     background-color: bisque;
     display: inline-block;
 }
+.flex{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.invisible {
+    padding:20px;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
 @media (min-width: 1200px) {
     .col-mx-1 {
      width: 8.33%;
