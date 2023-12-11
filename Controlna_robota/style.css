@@ -36,7 +36,7 @@ table, tr, td, th {
 }
 .text_block {
         background-color: rgb(23, 23, 23);
-        color: white;
+        color: rgb(183, 200, 227);
     }
 .list {
     background-color:rgb(173, 172, 214) ;
@@ -44,7 +44,7 @@ table, tr, td, th {
 }
 .list_block {
         background-color:rgb(18, 0, 132);
-        color:white;
+        color:rgb(250, 192, 247);
     }
 .table {
     background-color: rgb(75, 112, 152); 
@@ -56,11 +56,10 @@ table, tr, td, th {
     }
 .image {
     background-color: rgb(172, 213, 214);
-    color: rgb(43, 46, 48);
 }
 .image_block {
-        background-color: rgb(43, 46, 48);
-        color:white;
+        background-color: rgb(46, 26, 119);
+        color:rgb(173, 223, 234);
     }
 
 .link {
