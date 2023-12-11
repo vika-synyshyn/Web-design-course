@@ -27,35 +27,36 @@ table, tr, td, th {
 .text {
     background-color: rgb(188,155,174);
     color: rgb(23, 23, 23);
-    h4 {
+}
+.text_block {
         background-color: rgb(23, 23, 23);
         color: white;
     }
-}
-.image {
-    background-color: rgb(172, 213, 214);
-    color: rgb(43, 46, 48);
-    h4 {
-        background-color: rgb(43, 46, 48);
-        color:white;
-    }
-}
 .list {
     background-color:rgb(173, 172, 214) ;
     color:rgb(18, 0, 132);
-    h4 {
+}
+.list_block {
         background-color:rgb(18, 0, 132);
         color:white;
     }
-}
 .table {
     background-color: rgb(75, 112, 152); 
     color: white;
-    h4 {
+}
+.table_block {
         background-color: white;
         color:black;
     }
+.image {
+    background-color: rgb(172, 213, 214);
+    color: rgb(43, 46, 48);
 }
+.image_block {
+        background-color: rgb(43, 46, 48);
+        color:white;
+    }
+
 .link {
     border: 2px solid black;
     background-color: bisque;
