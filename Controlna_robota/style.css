@@ -15,7 +15,7 @@ img {
     display: block;
     margin: 0 auto;
   }
-table, tr, td {
+table, tr, td, th {
     border: 1px solid black;
 }
 .text {
